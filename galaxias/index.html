@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Voyager</title>
+  <link rel="stylesheet" href="micss.css">
+</head>
+
+<body>
+
+<canvas id="micanvas"></canvas>
+
+  <div id="pantalla">
+    <div id="titulo">Galaxias</div>
+    <div class="descrip">Sonorization and visualization of intergalactic journey based on <a href="https://cosmohub.pic.es" target="_blank">CosmoHub</a> data created during the <a href="https://www.cccb.org/es/actividades/ficha/hackathon-cuantica/231330" target="_blank">Cuantica Hackathon</a> at CCCB.</div>
+    <div class="descrip">Each circle corresponds to a galaxy. Its position is extracted from the data of that portion of the universe and the brightness is based on the galaxy luminosity. The notes are also based on luminosity data. Go fullscreen & pump up the volume!</div>
+     <button id="da" onclick="dale()">flow</button>
+  </div>
+
+  <div id="leyenda">
+    <div id="texto" width="100px"></div><div width="200" id="dato"></div>
+  </div>
+
+  <script src="js/Tone.js"></script>
+  <!-- NEXT dev versions -->
+  <script src="js/easeljs-NEXT.combined.js"></script>
+  <script src="js/tweenjs-NEXT.combined.js"></script>
+
+  <!-- Last versions -->
+  <!-- <script src="js/easeljs-0.8.2.combined.js"></script>
+  <script src="js/tweenjs-0.6.2.combined.js"></script> -->
+  <script src="visual.js"></script>
+   <script src="dato.js"></script>
+  <script src="midi.js"></script>
+  <script src="planets.js"></script>
+  <script src="sinte.js"></script>
+
+
+</body>
+
+</html>
